@@ -1,0 +1,23 @@
+spring:
+  security:
+    user:
+      password: hunter90
+    enable-csrf: false
+  application:
+    name: TaskM
+  datasource:
+    url: jdbc:mysql://localhost:3306/taskd
+    username: root
+    password: roaches90
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+# Additional configurations
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        security: TRACE
