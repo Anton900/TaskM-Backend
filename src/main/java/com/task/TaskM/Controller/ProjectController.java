@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.task.TaskM.Entity.Project;
-import com.task.TaskM.Entity.Task;
 import com.task.TaskM.Service.ProjectService;
 
 @RestController
